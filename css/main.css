@@ -1,0 +1,54 @@
+/* CSS declarations go here */
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url('http://iliketowastemytime.com/sites/default/files/mu-cang-chai-district-vietnam-hd-wallpaper.jpg');
+	background-size: 100%;
+	background-color: #cccccc;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.side-bar-content {
+	width: 22em;
+}
+
+.modal-content {
+	width: 110%;
+	margin: -2em;
+	padding: 0.7em;
+}
+.modal-title {
+	text-align: center;
+}
+
+.project {
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.project-picture {
+	width: 100%;
+}
+.project-name {
+	font-size: 2em;
+}
+
+.project-slogan {
+	font-size: 0.8em;
+  	font-style: oblique;
+}
+
+.project-description {
+	margin-top: 0.7em;
+
+}
+
+.project-link {
+	margin-top: 1em;
+}
+
+.videos {
+	margin: 0 auto;
+  	margin-left: 1.5em;
+}
