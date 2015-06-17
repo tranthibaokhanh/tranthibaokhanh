@@ -3,9 +3,12 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-image: url('http://iliketowastemytime.com/sites/default/files/mu-cang-chai-district-vietnam-hd-wallpaper.jpg');
-	background-size: 100%;
-	background-color: #cccccc;
+	background-image: url('http://www.rudi-weber.de/original/bar-in-paradise-.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -51,4 +54,8 @@ body {
 .videos {
 	margin: 0 auto;
   	margin-left: 1.5em;
+}
+
+.side-menu .content {
+	width: 310px;
 }
