@@ -9,11 +9,18 @@
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 
     <!-- This is for pretty icons -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="css/stylev3.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/stylev3.min.css">
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
     <script>
         Meteor.startup(function() {
+
+        	$('#theButton').click(function() {
+        		console.log('You clicked a button');
+        		$('.profile-header').addClass('animated fadeIn');
+        	});
+
         	$('.menu-button-wrapper').click(function() {
 
         		// Check to see whether the side-menu is open or closed
@@ -98,6 +105,9 @@
             <div class="profile-description">
                 Bao Khanh Tran<br>UC Berkeley 2018<br><br>Check out what I do.
             </div>
+            <button id="#theButton">
+            	Click me
+            </button>
         </div>
         <div class="button-wrapper">
             <div class="container">
